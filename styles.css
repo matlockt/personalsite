@@ -189,4 +189,9 @@ text-align: center;
   .rightnav {
     width: 75vw;
   }
+  
+    #about, #resume, #portfolio, #contact {
+    width: 75%;
+  }
+  
 }
