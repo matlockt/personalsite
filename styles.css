@@ -190,7 +190,7 @@ text-align: center;
     padding: 4.5% 10% 0 0;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
   .leftnav {
     width: 25vw;
     padding: 4% 0 0 21%;
