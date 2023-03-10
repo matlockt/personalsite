@@ -44,7 +44,7 @@ p {
 a {
   text-decoration: none;
   padding: 0px 4px;
-  border-radius: 25%;
+  border-radius: 5px;
   color: #000;
 }
 
@@ -54,7 +54,7 @@ a:visited {
 
 a:hover {
   color: #ffe6ee;
-  https://www.linkedin.com/in/tatum-matlock-180529a8/
+background: #000;
 }
 
 .leftnav {
