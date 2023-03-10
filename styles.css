@@ -114,6 +114,8 @@ text-align: center;
 
 .job {
   margin: 0 0 5% 0;
+  display: flex;
+  align-items: center;
 }
 
 .jobtitle {
@@ -125,7 +127,6 @@ text-align: center;
     -webkit-border-style: dotted;
     border-style: dotted;
     border-radius: 100px;
-    float: left;
     margin-right: 3%;
 }
 
@@ -133,12 +134,8 @@ text-align: center;
   margin-top: 29%;
 }
 
-.jobdescription p {
-  padding-top: 4%;
-}
-
 .jobdescription {
-  height: 150px;
+  width: calc(100% - 150px);
 }
 
 .pageicon {
@@ -182,13 +179,26 @@ text-align: center;
   padding: 2%
 }
 
+@media only screen and (max-width: 550px) {
+  .leftnav {
+    width: 50vw;
+    padding: 4% 0 0 10%;
+  }
+
+  .rightnav {
+    width: 50vw;
+    padding: 4.5% 10% 0 0;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .leftnav {
     width: 25vw;
+    padding: 4% 0 0 21%;
   }
 
   .rightnav {
     width: 75vw;
+    padding: 4.5% 21% 0 0;
   }
   
     #about, #resume, #portfolio, #contact {
